@@ -1,0 +1,278 @@
+@charset "UTF-8";
+
+/* Main CSS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #151310;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, nav ul, nav li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: sans-serif;
+    vertical-align: baseline;
+}
+
+.container {
+    padding: 40px 0 0 0;
+}
+
+.wrapper-login {
+    width: 30%;
+    margin: 0 auto;
+    background: #F1F1F1;
+    padding: 42px 0 0 0;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.wrapper-login h2 {
+    color: #151310;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.wrapper-login .top {
+    padding: 0 25px;
+}
+
+.login-input {
+    text-align: center;
+}
+
+.login-info {
+    padding: 20px 0 30px;
+}
+
+.login-submit>button {
+    font-size: 1em;
+    color: #ffffff;
+    background: #0f9d58;
+    border: 1px solid #0f9d58;
+    outline: none;
+    cursor: pointer;
+    padding: .8em 1em;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.login-input input[type="text"], .login-input input[type="email"], .login-input input[type="password"], .login-input input[type="file"] {
+    width: 87%;
+    padding: 15px 0px 15px 30px;
+    border: none;
+    border-bottom: 1px solid #a2a0a0;
+    outline: none;
+    font-size: 15px;
+    color: #212121;
+    margin: 14px 0px;
+    background-color: #FFFFFF;
+}
+
+.login-input input[type="email"], .login-input .email-in {
+    background: url(../icon/mail-icon.svg) no-repeat scroll 0px 50%;
+    background-color: #FFFFFF;
+}
+
+.login-input input[type="password"], .login-input .pass-in {
+    background: url(../icon/lock-icon.svg) no-repeat scroll 0px 50%;
+    background-color: #FFFFFF;
+}
+
+.login-info .check {
+    float: left;
+}
+
+.login-info a {
+    float: right;
+    font-size: .9em;
+    color: #151310;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login-btn input[type="submit"] {
+    background-color: #28B890;
+    font-size: 20px;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+    letter-spacing: .5px;
+    border-radius: 2px;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+
+.social-icons h3 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 15px 10px;
+    margin-bottom: 0;
+}
+
+ul.bottom-sc-icons {
+    list-style: none;
+    margin: 0;
+    padding: 22px 0;
+    text-align: center;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.bottom-sc-icons li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+ul.bottom-sc-icons li a {
+    padding: 6px 8px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+ul.bottom-sc-icons li a i {
+    display: inline-block;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 7px;
+}
+
+ul.bottom-sc-icons li span {
+    letter-spacing: 1px;
+    vertical-align: middle;
+}
+
+a.facebook {
+    border-color: #455797;
+    color: #455797;
+}
+
+a.facebook i {
+    background: url(../icon/login-facebook.svg) no-repeat;
+}
+
+a.google {
+    border-color: #E44439;
+    color: #E44439;
+}
+
+a.google i {
+    background: url(../icon/login-google.svg) no-repeat;
+}
+
+a.twitter {
+    border-color: #46A3DE;
+    color: #46A3DE;
+}
+
+a.twitter i {
+    background: url(../icon/login-twitter.svg) no-repeat;
+}
+
+.wrapper-login .bottom {
+    text-align: center;
+    background: #616161;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.bottom {
+    font-size: 15px;
+    color: #fff;
+    padding: 25px 0;
+    letter-spacing: 1px;
+}
+
+ .bottom-info {
+}
+
+.bottom-info span {
+    font-size: 15px;
+    color: #fff;
+    padding: 25px 0;
+    letter-spacing: 1px;
+}
+
+.bottom-info a {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Footer */
+
+.footer {
+    clear: both;
+    max-width: 1012px;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer:before {
+    display: table;
+    content: "";
+}
+
+.link {
+    text-align: center;
+    color: #586069;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #eaecef;
+}
+
+.link img {
+    width: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.link>a {
+    text-decoration: none;
+}
+
+.footer-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer-text>p {
+    color: #586069;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

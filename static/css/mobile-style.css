@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* Mobile view */
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+    .container {
+        padding: 5px;
+    }
+
+    .wrapper-login {
+        width: 98%;
+    }
+
+    .wrapper-login h2 {
+        color: #151310;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .social-icons h3 {
+        font-size: 14px;
+        letter-spacing: 0px;
+        margin: 10px 10px;
+    }
+
+    ul.bottom-sc-icons li a {
+        padding: 6px 4px;
+    }
+
+    ul.bottom-sc-icons li span {
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
